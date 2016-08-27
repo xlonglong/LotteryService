@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<properties>
+	<category name="system">
+		<property name="message_maxlen" value="204800" />
+		<property name="mina_listen_port" value="10100" />
+		<property name="short_connection" value="500" />
+		<property name="timeout" value="30000" />
+		<property name="file_port" value="7777" />
+		<property name="file_getutil" value="ebsfilecli" />
+		<property name="file_ip" value="172.25.27.97" />
+		<property name="file_dir" value="/home/gdlxebs/report" />
+		<property name="msgque_max_len" value="2000" />
+		<property name="msgque_min_len" value="1000" />
+		<property name="reqhndl_thrd_num" value="500" />
+		<property name="sync_listen_port" value="8089" />
+		<property name="distr_line_maxlen" value="102400" />
+		<property name="sleep_time" value="300" />
+		<property name="chnl_maxlen" value="102400" />
+		<property name="monitor_time" value="3000" />
+		<property name="md5_key" value="3000" />
+		<property name="3DESkey" value="484345744E41496C4E41496C"/>
+		<property name="command2tradecode_configpath" value="/home/tycp/apache-tomcat-6.0.26/webapps/LotteryReceiver/WEB-INF/classes/command2tradecod.properties"/>
+	</category>
+	<category name="maintenance">
+		<property name="kickback_begin" value="23:50:00" />
+		<property name="kickback_end" value="00:10:00" />
+		<property name="kickback_trade" value="" />
+	</category>
+	<category name="trade">
+		<property name="allow" value="GetNewVersion,GetAward,GetBalance,GetCheckMaskCode,GetDateTime,GetKaiJiangInfo,GetNewVersion,Login,NewChangPwd,Register,RegisterVal,GetKaiJiangInfoList,CaipiaoTjs,ReleaseMsg,QueryMsgList,QueryCommentList,PointMsg,CommentMsg,ReportMsg,ShieldMsg,UploadAvatar,ModifiedNickName,GetAwardList,GetOrders,GetOrder,Pay,UpdateUserInfo,BindBankCardInfo,QueryBindBankCardInfo,QueryBankNameList,ModifyCardAttr,Recharge,WithDraw,AddReferee,GetExtensionInfo,QueryFocusMapList,RestorePwd,CatchCaipiaoTjs,UpdateAwardType,GetRefereeInfo,GetRefereeInfo,GetAllyList,PayStream,QueryRate,WithDraw,GetCatchOrders,GetCatchOrder,GetOmission,GetCardInfoList,GetSiteInfoList,GetRandomCode,BindPayCardInfo" />
+		<property name="file_trade" value="KZFH600003" />
+		  <property name="info_trade" value="INFO" />
+		    <property name="acct_trade" value="ACCT" />
+	</category>
+	<category name="ebs">
+	 <property name="info_address" value="127.0.0.1" />
+      <property name="info_port" value="10002" />
+       <property name="acct_address" value="127.0.0.1" />
+      <property name="acct_port" value="10003" />
+       <property name="lott_address" value="127.0.0.1" />
+	   <property name="lott_port" value="10100" />
+	</category>
+	<category name="general">
+		<property name="channel" value="100002-456-789-zghbwhszzyjyshxxjsyxgszz-15743628" />
+	 </category>
+	 <category name="conn">
+		<property name="driver" value="com.mysql.jdbc.Driver" />
+	    <property name="url" value="jdbc:mysql://127.0.0.1:3306/caipiaosys" />
+		<property name="usr" value="app" />
+		<property name="pwd" value="app246357" />
+		<property name="maxActive" value="100" />
+		<property name="maxIdle" value="10" />
+	</category> 
+<!--  
+   	   <category name="conn">
+		<property name="driver" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://192.168.1.8:3306/caipiaosys" />
+		<property name="usr" value="root" />
+		<property name="pwd" value="123456" />
+		<property name="maxActive" value="100" />
+		<property name="maxIdle" value="10" />
+	</category>  --> 
+	<category name="partner">
+		<property name="posturl" value="http://192.168.2.104:9090/LotteryApplication-war/LotteryHandler" />
+		<property name="userid" value="ZYJYSH" />
+		<property name="md5String" value="ta7rf58kf9cl" />
+		<property name="ip" value="127.0.0.1" />
+		<property name="port" value="8089" />
+	</category>
+	
+	<category name="uppartner">
+	  <property name="url" value="http://19500.wicp.net:18092/" />
+	  
+	  <property name="machineId" value="1" />
+  	</category>
+	
+</properties>
